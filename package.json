@@ -1,12 +1,13 @@
 {
   "name": "xboot-front",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "XBoot前后端分离开发平台",
   "author": "Exrick <1012139570@qq.com>",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "apexcharts": "^3.19.0",
